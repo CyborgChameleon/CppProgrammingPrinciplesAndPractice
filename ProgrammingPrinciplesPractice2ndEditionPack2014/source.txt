@@ -1,0 +1,19 @@
+
+Power Point
+
+https://www.stroustrup.com/Programming/PPP2slides.html
+
+
+Exercise answers
+
+https://www.stroustrup.com/PPPslides/Solutions/exercise_solutions.html
+
+
+Supporting materials
+
+https://www.stroustrup.com/programming_support.html
+
+
+"Oudated" support material
+
+https://www.stroustrup.com/PPPslides/index.html
