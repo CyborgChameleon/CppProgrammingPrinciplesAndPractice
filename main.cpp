@@ -1,8 +1,9 @@
 #include "std_lib_facilities.h"
 
+//g++ -std=c++17 -Wall -Wextra main.cpp
 
 int main(){
-    // 3.5 ASSIGNMENT AND INITIALIZATION
+    //3.8 TYPES AND OBJECTS:
     
     
     
@@ -10,12 +11,46 @@ int main(){
     
     
     
+    //3.7 NAMES: TRY THIS
+    /*
+    STRING s="Goodby, cruel world!";
+    cOut<<S<<'\n';
+    */
     
     
     
+    //3.6 COMPOSITE ASSIGNMENT OPERATORS: Example 1
+    /*
+    int number_of_words =0;
+    string previous =" ";
+    string current;
+    while (cin>> current){
+        ++number_of_words;
+        if (previous == current)
+            cout<<"word number "<<number_of_words
+                <<" repeated:"<<current<<'\n';
+        previous=current;
+    }
+    */
     
     
-    //Example 2 3.4 OPERATIONS AND OPERATORS
+    
+    //3.5.1 ASSIGNMENT AND INITIALIZATION: TRY THIS
+    /*
+    string previous =" ";
+    string current;
+    while (cin>>current){
+        if (previous==current)
+            cout<<"repeated word: "<<current<< '\n';
+    previous=current;
+    }
+    // ctrl+D=exit while loop in the termnial on unix/linux
+    // ctrl+Z=exit while loop in the termnial on windows
+    */
+    
+    
+    
+    //3.4 OPERATIONS AND OPERATORS: Example 2
     /*
     cout<<"Please enter two names \n";
     string first;
@@ -27,7 +62,8 @@ int main(){
     */
     
     
-    //TRY THIS 3.4 OPERATIONS AND OPERATORS
+    
+    //3.4 OPERATIONS AND OPERATORS: TRY THIS
     /*
     cout<<"please enter a floating-point value: ";
     int n=0;
@@ -44,7 +80,8 @@ int main(){
     */
     
     
-    //Example 1 3.4 OPERATIONS AND OPERATORS
+    
+    //3.4 OPERATIONS AND OPERATORS: Example 1
     /*
     cout<<"type a number followed by a name";
     
@@ -68,7 +105,8 @@ int main(){
     */
     
     
-    //TRY THIS 3.3 INPUT AND TYPE
+    
+    //3.3 INPUT AND TYPE: TRY THIS
     /*
     cout<<"Please enter yor first name and age\n";
     string first_name;
@@ -77,6 +115,8 @@ int main(){
     cin>>age;
     cout<<"Hello " <<first_name <<" (monthes " <<age*12 <<")\n";
     */
+    
+    
     
     
    //before chapter 3.3
