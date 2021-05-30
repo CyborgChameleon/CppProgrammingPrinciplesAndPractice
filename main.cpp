@@ -2,21 +2,14 @@
 
 
 //g++ -std=c++17 -Wall -Wextra main.cpp
+void doNothing(int&){}
 
 int main(){
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    int x;
+    doNothing(x);
+    cout<<x;
     
     
     
